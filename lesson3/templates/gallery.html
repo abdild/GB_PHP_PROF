@@ -13,7 +13,7 @@
 <body>
     <main>
         <section>
-            <h2>Фотогалерея</h2>
+            <h2>Моя фотогалерея</h2>
             <div class="gallery_group">
                 {% for item in data %}
                 <a class="photo" href="../../uploads/img_full/{{ item.src }}" data-fancybox="gallery" data-caption="{{ item.description }}"><img src="../../uploads/img_short/{{ item.src }}" alt="{{ item.description }}"></a>
