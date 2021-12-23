@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/phpprof",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "aii",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "1.6.1"
+  }
+}

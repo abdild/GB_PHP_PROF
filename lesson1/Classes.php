@@ -38,6 +38,9 @@ class Admin extends User {
     public function deleteUser() {}
     public function editUser() {}
 }
+
+// Не знаю какие дочерние классы могут быть у класса Item.
+
 // 5. Дан код:
 // class A {
 //     public function foo() {

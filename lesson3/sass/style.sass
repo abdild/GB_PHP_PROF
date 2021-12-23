@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap')
+
+@import vars
+@import colors
+@import imgfilters
+@import buttons
+@import cards
+@import gallery
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 16px
+    // font-family: 'Raleway', sans-serif
+    // font-family: 'Roboto', sans-serif
+    // font-family: 'IBM Plex Sans', sans-serif
+    // font-family: 'Open Sans', sans-serif
+    // font-family: 'Inter', sans-serif
+    font-family: 'Montserrat', sans-serif
+    // font-family: 'Fira Sans', sans-serif
+    color: $color-dark
+    background-color: #fff
+    display: flex
+    flex-direction: column
+
+a
+    text-decoration: none
+    color: inherit
+
+@import fonts
+@import navs
+
+main
+    width: 1440px
+    margin: 0 auto
+    padding-top: 75px
+
+section
+    padding: 90px 165px 125px 165px
+    // padding-left: 165px
+    // padding-right: 165px
+
+section h2
+    text-align: center
+
+section .subtitle_primary
+    text-align: center
+    padding-top: 16px
+
+footer
+    background-color: #272727
+    color: $color-white
+
+footer section
+    width: 1440px
+    margin: 0 auto
+    padding-top: 60px
+    padding-bottom: 40px
+
+footer hr
+    color: $color-white
+
+.footer
+    display: flex
+
+.footer_logo
+    min-width: 50%
+
+.footer_logo p
+    width: 250px
+
+.footer_content
+    padding-top: 44px
+    min-width: 50%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+.footer_content ul
+    margin-left: 0
+    padding-left: 0
+
+.footer_content li
+    list-style-type: none
+    padding-bottom: 20px
+
+.footer_content li:nth-child(1)
+    color: $color-primary
+    font-weight: 600
+
+.footer_content li a:hover
+    color: $color-grey
+    transition: 0.3s
+
+.section_main
+    position: relative
+    width: 100%
+    height: 705px
+    // background-image: url('../img/main.jpg')
+    background-size: cover
+    background-position: center center
+
+.section_main img
+    position: absolute
+    width: 100%
+    height: 100%
+    object-fit: cover
+    z-index: 5
+    // filter: grayscale(95%) blur(2px)
+
+.glass_card
+    display: flex
+    flex-wrap: nowrap
+    flex-direction: column
+    gap: 20px
+    align-items: center
+    text-align: center
+    padding: 33px 60px
+    position: inherit
+    z-index: 10
+    width: 600px
+    min-width: 300px
+    min-height: 100px
+    margin: 0 auto
+    top: calc(50% - 150px)
+
+    background: linear-gradient(114.02deg, rgba(255, 255, 255, 0.95) 3.6%, rgba(255, 255, 255, 0.9) 71.01%)
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1)
+    border-radius: 12px   
+
+.glass_card img
+    position: relative
+    width: 75px
+    height: 75px
+    border-radius: $rounded-full
+
+section .bg1
+    background-color: #F7F8FA
+
+.block_about
+    display: flex
+    flex-wrap: nowrap
+    // flex: 1 1 50%
+
+.about_text
+    width: 50%
+    align-self: left
+
+.about_map
+    width: 50%
+
+

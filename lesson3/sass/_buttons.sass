@@ -1,0 +1,48 @@
+.btn
+    height: 42px
+    border-radius: $rounded
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: center
+    align-items: center
+    padding: 8px 24px
+    gap: 27px
+    border: none
+    cursor: pointer
+
+.btn-primary    
+    background-color: $color-primary
+    color: $color-white
+
+.btn-primary:hover  
+    background-color: $color-primary * 0.9
+    color: $color-white
+    transition: 0.5s
+
+.btn-primary:active 
+    background-color: $color-primary * 1.2
+    color: $color-white
+    transition: 0.1s
+    
+.btn-outline    
+    background-color: $color-white
+    color: $color-primary
+
+.btn-short
+    font-weight: 600
+    font-size: 0.875rem
+    letter-spacing: 1.25
+
+.btn-round
+    border-radius: $rounded-full
+    width: 50px
+    height: 50px
+    padding: 8px
+    margin: 0 auto
+
+.btn-round svg
+    stroke: $color-white
+    stroke-width: 1.5
+
+    
