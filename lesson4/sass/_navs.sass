@@ -1,0 +1,63 @@
+header
+    width: 100%
+    background-color: $color-white
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px
+    position: fixed
+    top: 0
+    z-index: 1000
+
+
+nav
+    width: 1440px
+    height: 75px
+    margin: 0 auto
+    padding: 0 165px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.nav_links
+    display: flex
+    flex-direction: row
+    gap: 80px 
+    font-size: 1rem
+    font-weight: 500
+    color: $color-dark
+    font-weight: 600
+    font-size: 1rem
+    letter-spacing: 0.5
+
+.nav_links a:hover
+    color: $color-primary
+    transition: 0.3s
+
+
+.nav_icons
+    display: flex
+    flex-direction: row
+    gap: 20px
+    position: relative
+
+.nav_icons a svg
+    width: 24px
+    height: 24px
+    fill: $color-dark
+
+.nav_icons a svg:hover
+    fill: $color-primary
+    transition: 0.3s
+
+.nav_icons span
+    position: absolute
+    right: -6px
+    top: -1px
+    background-color: $color-success
+    width: 14px
+    height: 14px
+    padding-top: 1.1px
+    margin: 0 auto
+    border-radius: $rounded-full
+    color: #fff
+    text-align: center
+    font-size: 10px
+
